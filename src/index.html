@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Laporan - Slip Gaji</title>
+</head>
+
+<body>
+    <nav class="bg-purple-700 z-50 fixed top-0 right-0 left-0 p-3 shadow-lg">
+        <img class="inline-block float-left w-[65px] mr-2 relative top-2" src="img/logoWeb2.png" alt="">
+        <h1 class="text-white font-semibold text-xl font-sans capitalize">laporan slip gaji karyawan</h1>
+        <p class="font-semibold text-white">solusi cerdas dalam laporan</p>
+    </nav>
+    <div class="flex flex-row pt-24 bg-purpleT left-0 px-3">
+        <div class="w-full bg-white p-5 mx-5 mb-5 rounded-lg shadow-lg">
+            <h1 class="font-semibold text-xl text-center">PT TRIKA MEDIA SOLUSINDO</h1>
+            <p class="text-center text-md font-semibold">One Stop Bussines And IT Solution</p>
+            <div class="border border-x-0 border-t-0 text-center mt-2 border-b-2 border-b-black text-sm">
+                Jl Printis Kemeredekaan KM 18 NO 13 Biring Kanayya Kelurahan Sudiang
+            </div>
+            <div class="uppercase text-center font-bold text-xl my-1">Slip Gaji Karyawan
+                <div class="capitalize text-sm">Priode 1 juni 2023 - 30 juni 2023</div>
+            </div>
+            <div id="slip-app">
+                <div>
+                    <table class="text-left flex flex-row gap-y-2">
+                        <tr>
+                            <td class="pr-5">
+                                NIK :
+                            </td>
+                            <th>-----</th>
+                        </tr>
+                        <tr>
+                            <td class="pr-5">Nama :</td>
+                            <th>-----</th>
+                        </tr>
+                        <tr>
+                            <td class="pr-5">Jabatan :</td>
+                            <th>-----</th>
+                        </tr>
+                        <tr>
+                            <td class="pr-5">Status :</td>
+                            <th>-----</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="flex flex-row mt-3">
+
+                    <div class="w-1/2">
+                        <h1 class="font-bold text-lg">Penghasilan</h1>
+                        <table class="text-left flex flex-row gap-y-2">
+                            <tr>
+                                <td class="pr-5">
+                                    Gaji Pokok =
+                                </td>
+                                <td>Rp -----</td>
+                            </tr>
+                            <tr>
+                                <td class="pr-5">
+                                    Tj Jabatan =
+                                </td>
+                                <td>Rp -----</td>
+                            </tr>
+                            <tr>
+                                <td class="pr-5">
+                                    Tj Konsumsi =
+                                </td>
+                                <td>Rp -----</td>
+                            </tr>
+                            <tr>
+                                <td class="pr-5">
+                                    Tj Harian =
+                                </td>
+                                <td>Rp -----</td>
+                            </tr>
+                            <tr>
+                                <td class="pr-5">
+                                    Bonus Target =
+                                </td>
+                                <td>Rp -----</td>
+                            </tr>
+                        </table>
+                        <h1 class="font-bold text-lg"> Total (A) Rp -----</h1>
+                    </div>
+                    <div class="w-1/2">
+                        <h1 class="font-bold text-lg">Potongan</h1>
+                        <table class="text-left flex flex-row gap-y-2">
+                            <tr>
+                                <td class="pr-5">
+                                    Pph 2 =
+                                </td>
+                                <td>Rp -----</td>
+                            </tr>
+                            <tr>
+                                <td class="pr-5">
+                                    Asuransi =
+                                </td>
+                                <td>Rp -----</td>
+                            </tr>
+                        </table>
+                        <h1 class="font-bold text-lg"> Total (B) Rp -----</h1>
+                    </div>
+                </div>
+                <div class="text-left py-2 border border-y-2 border-black bg-gray-300 border-x-0 mt-3">TOTAL (A - B) =
+                    Rp -----</div>
+                <div class="text-left py-2 border border-t-0 border-b-2 border-black bg-gray-300 border-x-0 mb-3">
+                    Terbilang
+                    = -------</div>
+            </div>
+        </div>
+        <div class="w-1/2 bg-white h-28 p-2 rounded-lg shadow-lg">
+            <label class="text-gray-500 text-md pb-5" for="chooseName">Pilih Nama Karyawan</label>
+            <select name="changeNama" id="chooseName"
+                class="w-full py-3 px-1 rounded-md border-2 shadow-md bg-gray-100 border-gray-400 focus:outline-blue-500 focus:ring-blue-500">
+                <option selected>Pilih Nama Karyawan</option>
+                <option value="Zhaka">Zhaka Hidayat</option>
+                <option value="Fery">Fery Fadul Rahman</option>
+                <option value="Wulandari">Wulandari</option>
+                <option value="Syahru Ramadhan">Syahru Ramadhan</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="script.js"></script>

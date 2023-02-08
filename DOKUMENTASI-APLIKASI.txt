@@ -1,0 +1,36 @@
+------------------------
+NAMA : Muhammad Bintang
+KELAS : XII RPL 2
+NIS : 202-062
+------------------------
+
+-------------------------------------------------------------
+
+--- TENTANG TUGAS ---
+Disi saya membuat tugas dengan menggunakan
+aplikasi berbasis web dengan menggunakan bahasa
+markup 'HTML' dan bahasa pemprograman `JavaScript (JS)`
+
+--- CARA PENGGUNAAN ---
+1. buka folder 'TUGAS-BASIS-DATA'
+2. buka folder 'src'
+3. buka file 'index' pada crome atau browser lain
+folder => 'TUGAS-BASIS-DATA/src/index.html
+
+--- TEKNOLOGI ---
+- HTML (markup)
+- JAVASCRIPT (bahasa programan)
+- TAILWIND CSS (styled / css)
+- NODE JS / NPM
+
+--- KOMPONEN ---
+- GAMBAR LOGO 
+- NAVBAR
+- DLL...
+
+--- FITUR ---
+- SPA (Single Aplication)
+- CHOOSE NAMA KARYAWAN
+- RECORD SLIP GAJI KARYAWAN
+
+-------------------------------------------------------------
